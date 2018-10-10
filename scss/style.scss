@@ -34,3 +34,29 @@ body{
 	}
 }
 
+@media (max-width: 768px){
+	#showcase{
+			min-height: 500px;
+			h1{
+				font-size:4rem;
+			}
+		}
+	.mb-resp{
+		margin-bottom: 10px;
+	}
+}
+
+.btn-primary{
+	background-color:$primary;
+	border:3;
+	border-color:$primary; 
+	
+
+}
+
+.btn-primary:hover{
+	background-color:#2B8193;
+	border:3;
+}
+
+
